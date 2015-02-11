@@ -1,0 +1,15 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px" viewBox="0 0 30 30">
+	<!-- Multi-color target technique by Lea Verou https://gist.github.com/LeaVerou/5198257 -->
+	<style>
+		#color-1:target ~ use { fill: #ff8b00; }
+		#color-2:target ~ use { fill: #b61854; }
+		#color-3:target ~ use { fill: #1d5cab; }
+	</style>
+	<defs>
+		<path id="drop" d="M24.811,18.231c-0.428-3.018-2.793-6.552-4.359-9.277 C18.588,5.711,16.713,3.011,15,0.407c-1.711,2.604-3.587,5.304-5.45,8.547c-1.565,2.725-3.932,6.259-4.36,9.277 C4.293,24.563,8.988,29.415,15,29.593C21.014,29.415,25.709,24.563,24.811,18.231z"/>
+	</defs>
+	<g id="color-1"></g>
+	<g id="color-2"></g>
+	<g id="color-3"></g>
+	<use xlink:href="#drop" />
+</svg>

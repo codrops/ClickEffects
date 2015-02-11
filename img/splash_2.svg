@@ -1,0 +1,16 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 15 30" preserveAspectRatio="none">
+	<!-- Multi-color target technique by Lea Verou https://gist.github.com/LeaVerou/5198257 -->
+	<style>
+		#color-4:target ~ use { fill: #f2438c; }
+		#color-5:target ~ use { fill: #ff6414; }
+		#color-6:target ~ use { fill: #5ed500; }
+	</style>
+	<defs>
+		<path id="splash_1" d="M6.536,4.436C7.888,2.525,8.604,2.09,10.24,2.192c0.291,0.018,0.561,0.068,0.801,0.152 c1.686,0.587,2.078,2.666,0.658,4.549c-0.356,0.478-1.685,1.809-2.952,2.962c-1.268,1.153-2.535,2.451-2.814,2.882 c-1.104,1.697-1.395,4.58-0.714,7.106c0.266,0.953,0.228,1.649-0.539,0.04C3.233,16.848,3.377,13.013,5.137,7.48 C5.612,5.986,5.927,5.294,6.536,4.436z"/>
+	</defs>
+	<g id="color-4"></g>
+	<g id="color-5"></g>
+	<g id="color-6"></g>
+	<use xlink:href="#splash_1" />
+</svg>
+
